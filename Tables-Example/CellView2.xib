@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell2" id="unk-Ip-K3C" customClass="CellView2" customModule="Tables_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="unk-Ip-K3C" id="zUC-Kn-bsG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQX-lO-zTM">
+                        <rect key="frame" x="8" y="8" width="304" height="27.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="3Kl-3a-6JD"/>
+                            <constraint firstAttribute="height" id="R8q-Ds-qpN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3Kl-3a-6JD"/>
+                                <exclude reference="R8q-Ds-qpN"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eQX-lO-zTM" firstAttribute="top" secondItem="zUC-Kn-bsG" secondAttribute="topMargin" id="0XW-Jg-cU3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eQX-lO-zTM" secondAttribute="trailing" id="Gbc-xI-XmE"/>
+                    <constraint firstItem="eQX-lO-zTM" firstAttribute="leading" secondItem="zUC-Kn-bsG" secondAttribute="leadingMargin" id="RW4-on-ucQ"/>
+                    <constraint firstItem="eQX-lO-zTM" firstAttribute="centerY" secondItem="zUC-Kn-bsG" secondAttribute="centerY" id="f9m-no-f7j"/>
+                    <constraint firstItem="eQX-lO-zTM" firstAttribute="centerX" secondItem="zUC-Kn-bsG" secondAttribute="centerX" id="lyE-Xs-Q6Q"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eQX-lO-zTM" secondAttribute="bottom" id="mPI-9t-hjj"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="f9m-no-f7j"/>
+                        <exclude reference="lyE-Xs-Q6Q"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="eQX-lO-zTM" id="5xU-2p-XkV"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
